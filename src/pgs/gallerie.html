@@ -60,7 +60,7 @@
                             </li>
 
                             <li class="w-full">
-                                <a href="galerie.html"
+                                <a href="gallerie.html"
                                     class="flex items-center gap-2 pb-2 border-b border-[#fff3] w-full text-white text-sm hover:text-[#c44569] hover:border-[#c44569]">
                                     <i class="fa fa-image"></i>
                                     Galérie
@@ -99,8 +99,8 @@
                                 </h1>
                             </div>
                             <div class="lg:flex hidden gap-4 items-center">
-                                <ul class="flex items-center gap-5 text-white ul-nav">
-                                  <a href="../">
+                                     <ul class="flex items-center gap-5 text-white ul-nav">
+                                    <a href="../">
                                         <li>Accueil</li>
                                     </a>
                                     <a href="apropos.html">
@@ -155,7 +155,7 @@
                                 class="inline-flex items-center justify-center p-3 bg-white/10 backdrop-blur-sm rounded-xl mb-6 border border-white/20">
                                 <i class="fa fa-users text-3xl text-white"></i>
                             </div>
-                            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">chorale</h1>
+                            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Galléries Photos</h1>
                             <p class="text-xl text-gray-200 max-w-2xl mx-auto">Le ministère de prière qui porte les
                                 fardeaux de l'église et des nations.</p>
                         </div>
@@ -165,132 +165,139 @@
             </div>
 
 
-        </section>
+        <!-- ====================================================== Galérie des photos ====================================================== -->
+        <section class="w-full py-20 bg-gray-50 px-4 sm:px-12 lg:px-36 pr-4 anime-reveal" id="galerie">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-[#1a365d] mb-4">Galerie Photos</h2>
+                        <p class="text-gray-600 max-w-xl">Revivez les moments forts de nos événements passés. La
+                            Présence de Dieu en images.</p>
 
-        <section>
+                    </div>
+                    <a class="hidden md:block" href="/galerie">
+                        <button
+                            class="inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none border-2 border-[#1a365d] text-[#1a365d] hover:bg-[#c44569] px-6 py-3 text-base hover:text-white hover:border-[#c44569] mt-4 md:mt-0"
+                            tabindex="0">Voir toute la galerie</button>
+                    </a>
+                </div>
 
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                <a class="flex items-center text-[#1a365d] hover:text-[#c44569] transition-colors mb-8 font-medium"
-                    href="../">
-                    <i class="fa fa-arrow-left mr-2 text-sm"></i>
-                    Retour à l'accueil
-                </a>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mysection3">
+                    <div
+                        class="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 cards3">
+                        <img src="../img/evenements/culte_dimanche.jpg" alt="Culte d'adoration"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
 
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 relative">
-                    <div class="lg:col-span-2 space-y-12">
-                        <section>
-                            <h2 class="text-2xl font-bold text-[#1a365d] mb-4 flex items-center">
-                                <span class="w-1.5 h-8 bg-[#c44569] rounded-full mr-3"></span>
-                                Notre Mission
-                            </h2>
-                            <p
-                                class="text-lg text-gray-600 leading-relaxed bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                                Notre mission est de nous tenir à la brèche pour l'église, les familles et les
-                                nations. Nous croyons en la puissance de la prière pour transformer les vies et
-                                impacter notre génération.</p>
-                        </section>
-
-                        <section>
-                            <h2 class="text-2xl font-bold text-[#1a365d] mb-6 flex items-center">
-                                <span class="w-1.5 h-8 bg-[#c44569] rounded-full mr-3"></span>
-                                Nos Activités
-                            </h2>
-
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-                                    style="opacity: 1; transform: none;">
-                                    <div class="flex items-start space-x-4">
-                                        <div class="p-2 bg-[#c44569]/10 rounded-lg">
-                                            <i class="fa fa-tv text-xl text-[#c44569]"></i>
-                                        </div>
-                                        <div data-id="element-240">
-                                            <h3 class="font-bold text-[#1a365d] mb-2">Chaîne de prière</h3>
-                                            <p class="text-sm text-gray-600">Prière continue 24/7 pour les urgences.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-                                    style="opacity: 1; transform: none;">
-                                    <div class="flex items-start space-x-4">
-                                        <div class="p-2 bg-[#c44569]/10 rounded-lg">
-                                            <i class="fa-regular fa-star text-xl text-[#c44569]"></i>
-                                        </div>
-                                        <div data-id="element-240">
-                                            <h3 class="font-bold text-[#1a365d] mb-2">Veillées</h3>
-                                            <p class="text-sm text-gray-600">Temps forts de prière nocturne chaque
-                                                mois.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-                                    style="opacity: 1; transform: none;">
-                                    <div class="flex items-start space-x-4">
-                                        <div class="p-2 bg-[#c44569]/10 rounded-lg">
-                                            <i class="fa fa-book text-xl text-[#c44569]"></i>
-                                        </div>
-                                        <div data-id="element-240">
-                                            <h3 class="font-bold text-[#1a365d] mb-2">Formation</h3>
-                                            <p class="text-sm text-gray-600">École de prière pour apprendre à
-                                                intercéder.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <section>
-                            <h2 class="text-2xl font-bold text-[#1a365d] mb-6 flex items-center">
-                                <span class="w-1.5 h-8 bg-[#c44569] rounded-full mr-3"></span>
-                                En Images
-                            </h2>
-
-                            <div class="grid grid-cols-2 gap-4">
-                                <img src="../img/departements/intercession.jpg" alt="photo-intercession"
-                                    class="rounded-xl w-full h-48 object-cover hover:scale-[1.02] transition-transform duration-300"
-                                    data-id="element-247">
-
-                                <img src="../img/departements/intercession.jpg" alt="photo-intercession"
-                                    class="rounded-xl w-full h-48 object-cover hover:scale-[1.02] transition-transform duration-300"
-                                    data-id="element-247">
-                            </div>
-                        </section>
+                        <div
+                            class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+                            <i
+                                class="fa fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300 w-10 h-10"></i>
+                        </div>
+                        <div
+                            class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            <p class="text-white font-medium text-sm">Culte Dominical</p>
+                            <p class="text-gray-300 text-xs">Octobre 2023</p>
+                        </div>
                     </div>
 
-                    <div class="lg:col-span-1">
-                        <div class="sticky top-24 space-y-6">
-                            <div class="bg-[#1a365d] text-white p-6 rounded-2xl shadow-lg">
-                                <h3 class="text-xl font-bold mb-6 border-b border-white/20 pb-4">Horaires de Réunion
-                                </h3>
-                                <div class="space-y-4">
-                                    <div class="flex items-center">
-                                        <i class="fa fa-calendar-days text-lg text-[#c44569] mr-3"></i>
-                                        <span class="font-medium">Samedi</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <i class="fa fa-clock text-lg text-[#c44569] mr-3"></i>
-                                        <span data-id="element-258">14:00 - 16:00</span>
-                                    </div>
-                                </div>
-                                <button
-                                    class="inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none bg-[#c44569] text-white hover:bg-gradient-to-r hover:from-[#c44569] hover:to-[#e17055] shadow-lg hover:shadow-xl px-6 py-3 text-base w-full mt-8"
-                                    tabindex="0">Rejoindre ce département</button>
-                            </div>
-                            <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-100">
-                                <h3 class="text-lg font-bold text-[#1a365d] mb-4">Une question ?</h3>
-                                <p class="text-gray-600 text-sm mb-4">Vous souhaitez en savoir plus sur le
-                                    département d'Intercession ?</p>
-                                <a href="mailto:contact@gracedivine.fr"
-                                    class="text-[#c44569] font-medium hover:underline text-sm">Contactez le
-                                    responsable →</a>
-                            </div>
+                    <div
+                        class="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 cards3">
+                        <img src="../img/evenements/séminaire.jpg" alt="Culte d'adoration"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <div
+                            class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+                            <i
+                                class="fa fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300 w-10 h-10"></i>
+                        </div>
+                        <div
+                            class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            <p class="text-white font-medium text-sm">Séminaire</p>
+                            <p class="text-gray-300 text-xs">Septembre 2023</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 cards3">
+                        <img src="../img/evenements/culte_reveillon.jpg" alt="Culte d'adoration"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <div
+                            class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+                            <i
+                                class="fa fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300 w-10 h-10"></i>
+                        </div>
+                        <div
+                            class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            <p class="text-white font-medium text-sm">Concert de Noël</p>
+                            <p class="text-gray-300 text-xs">Decembre 2022</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 cards3">
+                        <img src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Culte d'adoration"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <div
+                            class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+                            <i
+                                class="fa fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300 w-10 h-10"></i>
+                        </div>
+                        <div
+                            class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            <p class="text-white font-medium text-sm">Retraite Jeunesse</p>
+                            <p class="text-gray-300 text-xs">Juillet 2023</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 cards3">
+                        <img src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Culte d'adoration"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <div
+                            class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+                            <i
+                                class="fa fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300 w-10 h-10"></i>
+                        </div>
+                        <div
+                            class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            <p class="text-white font-medium text-sm">Séminaire Biblique</p>
+                            <p class="text-gray-300 text-xs">Mars 2023</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 cards3">
+                        <img src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Culte d'adoration"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <div
+                            class="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
+                            <i
+                                class="fa fa-magnifying-glass-plus text-white text-3xl opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300 w-10 h-10"></i>
+                        </div>
+                        <div
+                            class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                            <p class="text-white font-medium text-sm">Cérémonie de Baptême</p>
+                            <p class="text-gray-300 text-xs">Juin 2023</p>
                         </div>
                     </div>
                 </div>
+                <div class="mt-8 text-center md:hidden">
+                    <a href="/galerie">
+                        <button
+                            class="inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none border-2 border-white text-white hover:bg-white/10 px-6 py-3 text-base w-full text-[#1a365d] border-[#1a365d]"
+                            tabindex="0">Voir toute la galerie</button>
+                    </a>
+                </div>
             </div>
         </section>
+
 
         <!-- ====================================================== Bas de page ====================================================== -->
         <footer class="bg-[#0f2038] text-white pt-16 pb-8" id="contact">
